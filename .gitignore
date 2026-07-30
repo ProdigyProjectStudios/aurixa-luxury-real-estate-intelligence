@@ -1,0 +1,64 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output & caches
+dist/
+build/
+.cache/
+.strapi/
+.strapi-updater.json
+.upm/
+*.tsbuildinfo
+.tsbuildinfo
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Databases & dumps
+.tmp/
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+
+# Uploaded media (local)
+backend/public/uploads/*
+!backend/public/uploads/.gitkeep
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Backups & archives
+*.zip
+*.tar
+*.tar.gz
+*.bak
+backups/
+
+# Replit / agent internals
+.replit
+replit.md
+replit.nix
+.config/
+.local/
+.agents/
+attached_assets/
+Pasted-*.txt
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Sessions / cookies
+*.cookie
+cookies.txt
+.sessions/

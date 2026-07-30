@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "inquiries",
+  "info": {
+    "singularName": "inquiry",
+    "pluralName": "inquiries",
+    "displayName": "Inquiry",
+    "description": "Lead inquiries submitted from the public site, prepared for CRM/n8n handoff"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "maxLength": 120
+    },
+    "email": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "phone": {
+      "type": "string",
+      "maxLength": 30
+    },
+    "message": {
+      "type": "text",
+      "maxLength": 2000
+    },
+    "property_ref": {
+      "type": "json"
+    },
+    "routing": {
+      "type": "json"
+    },
+    "metadata": {
+      "type": "json"
+    },
+    "payload": {
+      "type": "json"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": ["new", "forwarded", "failed", "payload_ready_no_webhook_configured"],
+      "default": "new"
+    },
+    "forwarded_at": {
+      "type": "datetime"
+    },
+    "forward_error": {
+      "type": "text"
+    }
+  }
+}

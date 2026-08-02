@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-**Frontend showcase:** https://aurixa-pinnacle-edition-x.replit.app/
+**Frontend showcase:** https://aurixa.digitalprodigy.dev/
 
 The live demo runs the frontend in this repository with local demo data.
 

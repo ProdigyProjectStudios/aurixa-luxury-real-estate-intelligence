@@ -1,8 +1,18 @@
 # AURIXA Platform
 
-**A full-stack luxury real-estate platform for the Brazilian market — a cinematic React 19 frontend experience paired with a production-oriented Strapi v5 backend featuring an AI property-enrichment pipeline and automated lead handoff.**
+**A full-stack luxury real-estate platform commissioned for Juliana Souza, founder of a premium Brazilian property firm — a cinematic React 19 frontend experience paired with a production-oriented Strapi v5 backend featuring an AI property-enrichment pipeline and automated lead handoff.**
 
 > **Licence notice:** this repository is published for portfolio evaluation and technical review only — see [Licence](#licence).
+
+---
+
+## Client
+
+**Juliana Souza** — founder and director of a luxury property firm operating in the Brazilian high-net-worth market.
+
+AURIXA was commissioned as the client-facing digital platform for her business: a product that would elevate the brand beyond a traditional listings site and into a curated, intelligence-led property experience. The brief called for cinematic visual production, an AI intelligence brand layer, a property CMS with automated enrichment, and a portal system for both clients and internal property management.
+
+This repository contains both halves of the platform delivered as part of that engagement.
 
 ---
 
@@ -14,7 +24,7 @@ The live demo runs the frontend in this repository with local demo data.
 
 ## Product Overview
 
-AURIXA is a premium real-estate intelligence platform concept targeting high-net-worth buyers and sellers in Brazil. This repository contains both halves of the platform, built as complementary pieces of work:
+AURIXA is a premium real-estate intelligence platform built for Juliana Souza's luxury property firm, targeting high-net-worth buyers and sellers in Brazil. This repository contains both halves of the platform, built as complementary pieces of work:
 
 - **`frontend/`** — a cinema-grade React 19 single-page application: cross-fading 4K video hero, editorial "Pinnacle Collection" bento grids, a cinematic video gallery, filterable property discovery, and immersive property-detail pages. The public snapshot runs standalone on curated local demo data.
 - **`backend/`** — a production-oriented Strapi v5 / PostgreSQL backend: property CMS with Cloudinary media, an AI enrichment pipeline (Restb.ai computer vision + OpenAI pt-BR copywriting), and a hardened public lead-inquiry endpoint with n8n/CRM handoff.
